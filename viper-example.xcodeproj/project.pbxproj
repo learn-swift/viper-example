@@ -8,11 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		8A4E231F1C8E7B08000B6820 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4E231E1C8E7B08000B6820 /* AppDelegate.swift */; };
-		8A4E23211C8E7B08000B6820 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4E23201C8E7B08000B6820 /* ViewController.swift */; };
-		8A4E23241C8E7B09000B6820 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A4E23221C8E7B09000B6820 /* Main.storyboard */; };
+		8A4E23241C8E7B09000B6820 /* Todo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A4E23221C8E7B09000B6820 /* Todo.storyboard */; };
 		8A4E23261C8E7B09000B6820 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A4E23251C8E7B09000B6820 /* Assets.xcassets */; };
 		8A4E23291C8E7B09000B6820 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A4E23271C8E7B09000B6820 /* LaunchScreen.storyboard */; };
 		8A4E23341C8E7B09000B6820 /* viper_exampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4E23331C8E7B09000B6820 /* viper_exampleTests.swift */; };
+		8A4E234F1C8E8232000B6820 /* TodoAPIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4E23411C8E8232000B6820 /* TodoAPIDataManager.swift */; };
+		8A4E23501C8E8232000B6820 /* TodoLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4E23431C8E8232000B6820 /* TodoLocalDataManager.swift */; };
+		8A4E23511C8E8232000B6820 /* TodoInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4E23451C8E8232000B6820 /* TodoInteractor.swift */; };
+		8A4E23521C8E8232000B6820 /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4E23461C8E8232000B6820 /* TodoItem.swift */; };
+		8A4E23531C8E8232000B6820 /* TodoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4E23481C8E8232000B6820 /* TodoPresenter.swift */; };
+		8A4E23541C8E8232000B6820 /* TodoProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4E234A1C8E8232000B6820 /* TodoProtocols.swift */; };
+		8A4E23551C8E8232000B6820 /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4E234C1C8E8232000B6820 /* TodoView.swift */; };
+		8A4E23561C8E8232000B6820 /* TodoWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4E234E1C8E8232000B6820 /* TodoWireFrame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +35,21 @@
 /* Begin PBXFileReference section */
 		8A4E231B1C8E7B08000B6820 /* viper-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "viper-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A4E231E1C8E7B08000B6820 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8A4E23201C8E7B08000B6820 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8A4E23231C8E7B09000B6820 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A4E23231C8E7B09000B6820 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Todo.storyboard; sourceTree = "<group>"; };
 		8A4E23251C8E7B09000B6820 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A4E23281C8E7B09000B6820 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A4E232A1C8E7B09000B6820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A4E232F1C8E7B09000B6820 /* viper-exampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "viper-exampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A4E23331C8E7B09000B6820 /* viper_exampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viper_exampleTests.swift; sourceTree = "<group>"; };
 		8A4E23351C8E7B09000B6820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A4E23411C8E8232000B6820 /* TodoAPIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoAPIDataManager.swift; sourceTree = "<group>"; };
+		8A4E23431C8E8232000B6820 /* TodoLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoLocalDataManager.swift; sourceTree = "<group>"; };
+		8A4E23451C8E8232000B6820 /* TodoInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoInteractor.swift; sourceTree = "<group>"; };
+		8A4E23461C8E8232000B6820 /* TodoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
+		8A4E23481C8E8232000B6820 /* TodoPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoPresenter.swift; sourceTree = "<group>"; };
+		8A4E234A1C8E8232000B6820 /* TodoProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoProtocols.swift; sourceTree = "<group>"; };
+		8A4E234C1C8E8232000B6820 /* TodoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
+		8A4E234E1C8E8232000B6820 /* TodoWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoWireFrame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +91,8 @@
 		8A4E231D1C8E7B08000B6820 /* viper-example */ = {
 			isa = PBXGroup;
 			children = (
+				8A4E233E1C8E8232000B6820 /* Todo */,
 				8A4E231E1C8E7B08000B6820 /* AppDelegate.swift */,
-				8A4E23201C8E7B08000B6820 /* ViewController.swift */,
-				8A4E23221C8E7B09000B6820 /* Main.storyboard */,
 				8A4E23251C8E7B09000B6820 /* Assets.xcassets */,
 				8A4E23271C8E7B09000B6820 /* LaunchScreen.storyboard */,
 				8A4E232A1C8E7B09000B6820 /* Info.plist */,
@@ -94,6 +107,86 @@
 				8A4E23351C8E7B09000B6820 /* Info.plist */,
 			);
 			path = "viper-exampleTests";
+			sourceTree = "<group>";
+		};
+		8A4E233E1C8E8232000B6820 /* Todo */ = {
+			isa = PBXGroup;
+			children = (
+				8A4E233F1C8E8232000B6820 /* DataManager */,
+				8A4E23441C8E8232000B6820 /* Interactor */,
+				8A4E23471C8E8232000B6820 /* Presenter */,
+				8A4E23491C8E8232000B6820 /* Protocols */,
+				8A4E234B1C8E8232000B6820 /* View */,
+				8A4E234D1C8E8232000B6820 /* WireFrame */,
+			);
+			path = Todo;
+			sourceTree = "<group>";
+		};
+		8A4E233F1C8E8232000B6820 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				8A4E23401C8E8232000B6820 /* API */,
+				8A4E23421C8E8232000B6820 /* Local */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		8A4E23401C8E8232000B6820 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				8A4E23411C8E8232000B6820 /* TodoAPIDataManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		8A4E23421C8E8232000B6820 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				8A4E23431C8E8232000B6820 /* TodoLocalDataManager.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		8A4E23441C8E8232000B6820 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				8A4E23451C8E8232000B6820 /* TodoInteractor.swift */,
+				8A4E23461C8E8232000B6820 /* TodoItem.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		8A4E23471C8E8232000B6820 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				8A4E23481C8E8232000B6820 /* TodoPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		8A4E23491C8E8232000B6820 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				8A4E234A1C8E8232000B6820 /* TodoProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		8A4E234B1C8E8232000B6820 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8A4E234C1C8E8232000B6820 /* TodoView.swift */,
+				8A4E23221C8E7B09000B6820 /* Todo.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A4E234D1C8E8232000B6820 /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				8A4E234E1C8E8232000B6820 /* TodoWireFrame.swift */,
+			);
+			path = WireFrame;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,7 +272,7 @@
 			files = (
 				8A4E23291C8E7B09000B6820 /* LaunchScreen.storyboard in Resources */,
 				8A4E23261C8E7B09000B6820 /* Assets.xcassets in Resources */,
-				8A4E23241C8E7B09000B6820 /* Main.storyboard in Resources */,
+				8A4E23241C8E7B09000B6820 /* Todo.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +290,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A4E23211C8E7B08000B6820 /* ViewController.swift in Sources */,
+				8A4E23561C8E8232000B6820 /* TodoWireFrame.swift in Sources */,
+				8A4E234F1C8E8232000B6820 /* TodoAPIDataManager.swift in Sources */,
+				8A4E23541C8E8232000B6820 /* TodoProtocols.swift in Sources */,
 				8A4E231F1C8E7B08000B6820 /* AppDelegate.swift in Sources */,
+				8A4E23531C8E8232000B6820 /* TodoPresenter.swift in Sources */,
+				8A4E23511C8E8232000B6820 /* TodoInteractor.swift in Sources */,
+				8A4E23551C8E8232000B6820 /* TodoView.swift in Sources */,
+				8A4E23521C8E8232000B6820 /* TodoItem.swift in Sources */,
+				8A4E23501C8E8232000B6820 /* TodoLocalDataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,12 +321,13 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8A4E23221C8E7B09000B6820 /* Main.storyboard */ = {
+		8A4E23221C8E7B09000B6820 /* Todo.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				8A4E23231C8E7B09000B6820 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Todo.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		8A4E23271C8E7B09000B6820 /* LaunchScreen.storyboard */ = {
@@ -388,6 +489,7 @@
 				8A4E233A1C8E7B09000B6820 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A4E233B1C8E7B09000B6820 /* Build configuration list for PBXNativeTarget "viper-exampleTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +498,7 @@
 				8A4E233D1C8E7B09000B6820 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
