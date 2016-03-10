@@ -13,6 +13,7 @@
 		8A4E23261C8E7B09000B6820 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A4E23251C8E7B09000B6820 /* Assets.xcassets */; };
 		8A4E23291C8E7B09000B6820 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A4E23271C8E7B09000B6820 /* LaunchScreen.storyboard */; };
 		8A4E23341C8E7B09000B6820 /* viper_exampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4E23331C8E7B09000B6820 /* viper_exampleTests.swift */; };
+		8ADBB3F21C911EF000118427 /* RootWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADBB3F11C911EF000118427 /* RootWireframe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		8A4E232F1C8E7B09000B6820 /* viper-exampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "viper-exampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A4E23331C8E7B09000B6820 /* viper_exampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viper_exampleTests.swift; sourceTree = "<group>"; };
 		8A4E23351C8E7B09000B6820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ADBB3F11C911EF000118427 /* RootWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootWireframe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				8A4E23251C8E7B09000B6820 /* Assets.xcassets */,
 				8A4E23271C8E7B09000B6820 /* LaunchScreen.storyboard */,
 				8A4E232A1C8E7B09000B6820 /* Info.plist */,
+				8ADBB3F11C911EF000118427 /* RootWireframe.swift */,
 			);
 			path = "viper-example";
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			files = (
 				8A4E23211C8E7B08000B6820 /* ViewController.swift in Sources */,
 				8A4E231F1C8E7B08000B6820 /* AppDelegate.swift in Sources */,
+				8ADBB3F21C911EF000118427 /* RootWireframe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +392,7 @@
 				8A4E233A1C8E7B09000B6820 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A4E233B1C8E7B09000B6820 /* Build configuration list for PBXNativeTarget "viper-exampleTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +401,7 @@
 				8A4E233D1C8E7B09000B6820 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
